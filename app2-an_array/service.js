@@ -102,12 +102,12 @@ var myData = [
 ];
 
 
+// ---------- end of var myData ---------- //
 
+angular.module('arrayApp').service('svc', function() {
 
+	this.getData = function() {
+		return myData;
+	}
 
-
-
-
-
-
-
+}) // end of service

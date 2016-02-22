@@ -3,6 +3,19 @@
 	width: 100%;
 }
 .personData {
-	width: 24%;	
+	width: 24%;
 	display: inline-block;
+}
+
+.data {
+	/*width: 100%;
+	height: auto;*/
+}
+
+.data p {
+
+}
+
+.data span {
+	float: right;
 }

@@ -1,7 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html ng-app="app2">
+	<head ng-controller="ctrl">
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
 	<body>
-		Something
-				<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+
+		<input ng-model="test" />
+		<div>
+			{{test}}
+		</div>
+
+		<div class="data-container">
+			<!-- <div class="data-stuff" ng-repeat="people in data"> -->
+			<div class="data-stuff" ng-model="data">
+				{{people}}
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 		<script src="app.js"></script>
 		<script src="controller.js"></script>
 		<script src="service.js"></script>
